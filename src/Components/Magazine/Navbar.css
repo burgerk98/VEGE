@@ -1,0 +1,11 @@
+@import "../../App.css";
+
+#navContainer {
+  grid-area: b;
+  padding: 10px 40px 10px 40px;
+  display: flex;
+  justify-content: space-between;
+  border: solid 3px var(--black);
+  border-bottom: solid 1px var(--black);
+  border-top: solid 2px var(--black);
+}

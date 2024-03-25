@@ -1,0 +1,16 @@
+@import "../../App.css";
+
+#mainCollection {
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  padding: 10px 0px;
+  -ms-overflow-style: none; /* 인터넷 익스플로러 */
+  scrollbar-width: none;
+  border: solid 1px var(--black);
+}
+#mainCollection ::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera*/
+}

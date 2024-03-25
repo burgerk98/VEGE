@@ -1,0 +1,55 @@
+@import "../../App.css";
+
+#mainContainer {
+  grid-area: c;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: auto;
+  grid-template-areas:
+    "header header header"
+    "collection collection collection"
+    "symbol symbol logo"
+    " d d d"
+    "cook cook cook";
+  border: solid 2px var(--black);
+  border-top: none;
+}
+
+#mainHeader {
+  padding: 80px;
+  text-align: center;
+  grid-area: header;
+  border: solid 1px var(--black);
+}
+
+#mainCollection {
+  grid-area: collection;
+  padding: 80px 30px 80px 30px;
+}
+
+#mainSymbol {
+  grid-area: symbol;
+  padding: 80px 30px 80px 30px;
+  border: solid 1px var(--black);
+}
+
+#mainLogo {
+  grid-area: logo;
+  padding: 80px 30px 80px 30px;
+  text-align: center;
+  border: solid 1px var(--black);
+}
+
+#logoImg {
+  padding: 30px;
+}
+
+#mainCook {
+  grid-area: cook;
+  padding: 80px 30px 80px 30px;
+  border: solid 1px var(--black);
+}
+
+#main6img {
+  height: 250px;
+}

@@ -1,0 +1,28 @@
+#logoContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+#logo {
+  text-align: center;
+  margin: 0 auto;
+  font-size: 100px;
+}
+
+#cloud1 {
+  position: fixed;
+  top: 15px;
+}
+#cloud2 {
+  position: fixed;
+  top: -50px;
+}
+#cloud3 {
+  position: fixed;
+  top: 65vh;
+  right: 0vh;
+  /* left: 180vh; */
+}

@@ -1,0 +1,36 @@
+#byeWrapper {
+  text-align: center;
+  margin: 0 auto;
+}
+
+#byeContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* width: 100vw; */
+  height: 100vh;
+}
+
+#bye {
+  font-size: 100px;
+}
+
+#bush1 {
+  position: fixed;
+  bottom: 100px;
+}
+#bush2 {
+  position: fixed;
+  bottom: 80px;
+  left: 20vh;
+}
+#bush3 {
+  position: fixed;
+  bottom: 80px;
+}
+#bush4 {
+  position: fixed;
+  bottom: 80px;
+  right: 0;
+}
