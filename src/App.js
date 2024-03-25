@@ -1,14 +1,9 @@
-import { useTransform } from "framer-motion";
 import "./App.css";
 import Bye from "./Components/Bye/Bye";
 import Hello from "./Components/Hello/Hello";
 import Logo from "./Components/Logo/Logo";
 
 import Magazine from "./Components/Magazine/Magazine";
-
-function useParallax(value, distance) {
-  return useTransform(value, [0, 1], [-distance, distance]);
-}
 
 function App() {
   return (

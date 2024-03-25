@@ -14,12 +14,12 @@ const Bye = () => {
   return (
     <>
       <motion.p style={{ x: bush1x }}>
-        <img id="bush1" src={bush1} />
+        <img id="bush1" src={bush1} alt="풀더미1" />
       </motion.p>
-      <img id="bush2" src={bush2} />
-      <img id="bush4" src={bush4} />
+      <img id="bush2" src={bush2} alt="풀더미2" />
+      <img id="bush4" src={bush4} alt="풀더미4" />
       <motion.p style={{ x: bush3x }}>
-        <img id="bush3" src={bush3} />
+        <img id="bush3" src={bush3} alt="풀더미3" />
       </motion.p>
 
       <div id="byeWrapper">
